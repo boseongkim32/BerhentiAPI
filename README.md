@@ -8,13 +8,9 @@ Berhenti is a mobile app that helps users combat their addictive behaviors in a 
 
 ## Architecture
 
-TODO:  descriptions of code organization and tools and libraries used
-
 We maintained the babel express backend setup from the starter pack. Backend is built with numerous models: user, feed, milestone, trigger, relapse, poke, and a user_pokes, which acts as a wrapper for poke objects. We included both service and controller methods to separate generic CRUD methods from more detailed and tailored use cases. Additionally, we included a friend service and controller for clarity to separate methods pertaining to handling friends and handling users themselves.
 
 ## Setup
-
-TODO: how to get the project dev environment up and running, npm install etc
 
 * Clone repo to local
 * Run `npm install` to ensure that all packages are installed
